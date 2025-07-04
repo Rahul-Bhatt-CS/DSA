@@ -14,15 +14,10 @@ public class DSA_1_Stacks{
         System.out.println(stack);
 
 //        Methods in java for stacks:
-//        stack.push(element);
-//        add element to stack
-//        stack.pop();
-//        remove and get top element;
-//        stack.peek();
-//        see what is the top element
-//        stack.empty();
-//        check if the stack is empty
-//        stack.search(element);
-//        search for an element in the stack
+//        stack.push(element); :- add element to stack
+//        stack.pop(); :- remove and get top element;
+//        stack.peek(); :- see what is the top element
+//        stack.empty(); :- check if the stack is empty
+//        stack.search(element); :- search for an element in the stack
     }
 }
