@@ -28,7 +28,18 @@ public class DSA_4_LinkedLists {
         list.add(7, "E");
         list.remove("F");
 
+//        we can also find the index of any element:
+        System.out.println(list.indexOf("E"));
+
+        System.out.println(list.peekFirst());
+        System.out.println(list.peekLast());
+        list.addFirst("0");
+        list.addLast("G");
+        String first = list.removeFirst();
+        String last = list.removeLast();
+
         System.out.println(list);
+        System.out.println(list.size());
 
     }
 }
