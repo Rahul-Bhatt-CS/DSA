@@ -58,6 +58,8 @@ public class DSA_7_GraphMatrix {
         graph.addEdge(4 , 0);
         graph.addEdge(4 , 2);
 
+        System.out.println(graph.checkEdge(4,1));
+
         graph.printGraph();
     }
 }
